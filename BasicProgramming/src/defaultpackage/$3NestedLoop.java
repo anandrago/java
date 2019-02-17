@@ -49,20 +49,23 @@ public class $3NestedLoop {
 			System.out.println("");
 		}
 		System.out.println();
-		for(int o=1;o<4;o++) {
-			for(int p=1;p<4;p++) {
+		for(int o=1;o<5;o++) {
+			for(int p=1;p<5;p++) {
 				if((o==1)&&(p<2))
-				System.out.print("* ");
+				System.out.print("A ");
+				else if((o==2)&&(p<2)) 
+				System.out.print("A ");
 				else if((o==2)&&(p<3)) 
-				System.out.print("* ");
+				System.out.print("B ");
+				else if((o==3)&&(p<2)) 
+				System.out.print("A ");
+				else if((o==3)&&(p<3)) 
+				System.out.print("B ");
 				else if((o==3)&&(p<4)) 
-				System.out.print("* ");
+				System.out.print("C ");
 			}
 			System.out.println();
 		}
-		
-		char a='A';
-		System.out.println(a);
 		
 	}
 }

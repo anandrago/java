@@ -3,6 +3,7 @@ package Employee;
 public class Department {
 	int dId;
 	String dName;
+	String skills;
 	String designation;
 	public Department(int dId, String dName, String designation) {
 		this.dId = dId;
